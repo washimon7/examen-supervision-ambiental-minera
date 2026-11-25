@@ -183,7 +183,7 @@
      "sea dictada la resolución respectiva"
     ]
    ],
-   "ojo": "Trampa conocida: la tabla automática daba 153 → 35, pero el art. 153 del TUO 2019 equivale al art. 142 del TUO 2026; el art. 35 equivale al antiguo art. 39.",
+   "ojo": "Trampa: el art. 153 del TUO 2019 equivale al art. 142 del TUO 2026, no al art. 35; el art. 35 equivale al antiguo art. 39.",
    "tip": "Dos artículos fijan 30 días para la evaluación previa: el 35 (Capítulo I) y el 142 (Capítulo IV). Cita el que corresponda a tu argumento.",
    "leer": "Título II, Capítulo IV «Plazos y Términos» (arts. 131–143), pp. 29–31 del PDF"
   },
@@ -429,7 +429,7 @@
    "ok": "La resolución del recurso no puede imponerle sanciones más graves",
    "mal": [
     "La autoridad puede agravar la sanción si halla nuevos hechos",
-    "La sanción se suspende hasta que el recurso quede resuelto",
+    "La empresa debe pagar la multa antes de que se admita su recurso",
     "La autoridad puede agravar la sanción si el recurso es infundado"
    ],
    "por": "El art. 237.3 dispone que, cuando el infractor recurra o impugne la resolución, <q>la resolución de los recursos que interponga no podrá determinar la imposición de sanciones más graves para el sancionado</q>.",

@@ -206,7 +206,7 @@
      "Legislativo Nº 1272)"
     ]
    ],
-   "ojo": "La única diferencia de texto es una remisión interna: la citación y comparecencia se rigen ahora por los «artículos 58 y 59» (antes 69 y 70).",
+   "ojo": "Las únicas diferencias de texto son remisiones internas actualizadas: la citación y comparecencia se rigen por los «artículos 58 y 59» (antes 69 y 70) y el art. 228-E.1 remite al «artículo 228-B» (antes 240).",
    "tip": "Tus checklists de supervisión basados en el TUO 2019 siguen valiendo en contenido; actualiza solo la numeración.",
    "leer": "Título IV, Capítulo I-A «La actividad administrativa de fiscalización» (arts. 228-A–228-H), pp. 41–42 del PDF"
   },

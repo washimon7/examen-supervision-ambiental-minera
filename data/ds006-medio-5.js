@@ -321,7 +321,7 @@
      "la norma que atribuya tal competencia"
     ]
    ],
-   "ojo": "Las sanciones se expresan como POSIBLES («que se le pudiera imponer»); no se decide la sanción al imputar. Equivalencia: art. 254 del TUO 2019 → art. 234 del TUO 2026.",
+   "ojo": "Las sanciones se expresan como POSIBLES («que, en su caso, se le pudiera imponer»); no se decide la sanción al imputar. Equivalencia: art. 254 del TUO 2019 → art. 234 del TUO 2026.",
    "tip": "Checklist de la imputación: hechos, tipo infractor, sanción posible, autoridad sancionadora y norma de competencia.",
    "leer": "Título IV, Capítulo II, Subcapítulo II «Ordenamiento del Procedimiento Sancionador» (arts. 234–237-A), pp. 44–46 del PDF"
   },
@@ -436,7 +436,7 @@
      "directamente prestados por aquéllas"
     ]
    ],
-   "ojo": "Equivalencia: art. 260 del TUO 2019 → art. 238 del TUO 2026 (en el Título V se resta 22: 260 → 238, 261 → 239).",
+   "ojo": "Equivalencia: art. 260 del TUO 2019 → art. 238 del TUO 2026 (260 → 238 y 261 → 239; desde el 262 se resta 21, porque el TUO 2026 conserva el art. 240 como derogado).",
    "tip": "La nulidad de un acto no genera por sí sola derecho a indemnización (art. 238.3).",
    "leer": "Título V «De la responsabilidad de la administración pública y del personal a su servicio» (arts. 238–244), pp. 46–47 del PDF"
   },

@@ -459,7 +459,7 @@
      "2. Por la caducidad del procedimiento sancionador"
     ]
    ],
-   "ojo": "Matiz: con la caducidad, las medidas se mantienen tres meses adicionales si se dispone el inicio de un nuevo PAS (art. 237-A.5). Equivalencia: art. 256.8 del TUO 2019 → art. 236.8 del TUO 2026.",
+   "ojo": "Matiz: con la caducidad, las medidas se mantienen vigentes tres meses adicionales en tanto se disponga el inicio de un nuevo PAS (art. 237-A.5). Equivalencia: art. 256.8 del TUO 2019 → art. 236.8 del TUO 2026.",
    "tip": "Al resolver un recurso, decide expresamente si mantienes las medidas provisionales.",
    "leer": "Título IV, Capítulo II, Subcapítulo II «Ordenamiento del Procedimiento Sancionador» (arts. 234–237-A), pp. 44–46 del PDF"
   }

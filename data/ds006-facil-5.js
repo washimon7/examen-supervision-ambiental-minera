@@ -390,7 +390,7 @@
      "fuerza mayor debidamente comprobada"
     ]
    ],
-   "ojo": "La fuerza mayor debe estar «debidamente comprobada»: la carga de acreditarla es del administrado. Equivalencia: art. 257 del TUO 2019 → art. 236-A del TUO 2026.",
+   "ojo": "La fuerza mayor debe estar «debidamente comprobada»: no basta con alegarla. Equivalencia: art. 257 del TUO 2019 → art. 236-A del TUO 2026.",
    "tip": "Eximentes (236-A.1): fuerza mayor, deber legal o defensa, incapacidad, orden de autoridad, error inducido, subsanación voluntaria previa.",
    "leer": "Título IV, Capítulo II, Subcapítulo II «Ordenamiento del Procedimiento Sancionador» (arts. 234–237-A), pp. 44–46 del PDF"
   },

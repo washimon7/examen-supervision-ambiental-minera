@@ -218,7 +218,7 @@
   {
    "id": "ds006-f1-10",
    "tema": "Medidas cautelares",
-   "q": "¿En qué artículo del TUO 2026 se regulan las medidas cautelares que la autoridad puede adoptar una vez iniciado el procedimiento?",
+   "q": "¿En qué artículo del TUO 2026 se regulan, con carácter general, las medidas cautelares que la autoridad puede adoptar una vez iniciado el procedimiento?",
    "ok": "Artículo 146",
    "mal": [
     "Artículo 157",

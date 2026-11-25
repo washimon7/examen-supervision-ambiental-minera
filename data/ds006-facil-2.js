@@ -326,7 +326,7 @@
      "administrado lo considera"
     ]
    ],
-   "ojo": "Es decisión del administrado («si lo considera»), no de la entidad. Equivalencia: art. 242 del TUO 2019 → art. 228-D del TUO 2026 (la tabla automática lo daba erróneamente como art. 55).",
+   "ojo": "Es decisión del administrado («si lo considera»), no de la entidad. Equivalencia: art. 242 del TUO 2019 → art. 228-D del TUO 2026.",
    "tip": "Registra en el acta la identidad del asesor que acompaña a la empresa.",
    "leer": "Título IV, Capítulo I-A «La actividad administrativa de fiscalización» (arts. 228-A–228-H), pp. 41–42 del PDF"
   },
@@ -368,8 +368,8 @@
    "cita": [
     [
      42,
-     "Principios de la potestad sancionadora administrativa",
-     "regida adicionalmente por los siguientes principios"
+     "Artículo 230.- Principios de la potestad sancionadora",
+     "siguientes principios especiales:"
     ]
    ],
    "ojo": "Equivalencia: art. 248 del TUO 2019 → art. 230 del TUO 2026. Son principios «adicionales»: no desplazan a los del art. IV.",

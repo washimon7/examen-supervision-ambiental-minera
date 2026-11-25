@@ -68,7 +68,7 @@
      "realizarse total o parcialmente a través de tecnologías"
     ]
    ],
-   "ojo": "A partir de ahí los desfases varían: 31 → 29-B, 34 → 32, 39 → 35; desde el 61 del TUO 2019 la diferencia se estabiliza en 11.",
+   "ojo": "A partir de ahí los desfases varían: 31 → 29-B, 34 → 32, 39 → 35; desde el 61 hasta el 220 del TUO 2019 la diferencia es de 11.",
    "tip": "Nulidad, eficacia y notificación (arts. 1–28) se citan igual en ambos TUO; desde el procedimiento electrónico, verifica siempre el número.",
    "leer": "Título II, Capítulo I «Disposiciones Generales» (arts. 29–49-B), pp. 10–18 del PDF"
   },

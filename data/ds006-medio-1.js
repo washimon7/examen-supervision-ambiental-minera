@@ -91,7 +91,7 @@
      "con rectoría en la materia"
     ]
    ],
-   "ojo": "Cambio real: el art. 41 del TUO 2019 (hoy 36-A) no definía la estandarización; solo decía que la PCM aprobaba los procedimientos estandarizados por decreto supremo.",
+   "ojo": "Cambio real: el art. 41 del TUO 2019 (hoy 36-A) no definía la estandarización; regulaba su aprobación por decreto supremo refrendado por la PCM y su incorporación al TUPA.",
    "tip": "Equivalencia: art. 41 del TUO 2019 → art. 36-A del TUO 2026. «Estandarizar = PCM + rector».",
    "leer": "Título II, Capítulo I «Disposiciones Generales» (arts. 29–49-B), pp. 10–18 del PDF"
   },
@@ -321,7 +321,7 @@
      "diligencias en las que participen"
     ]
    ],
-   "ojo": "Equivalencia: art. 242 del TUO 2019 → art. 228-D del TUO 2026 (la tabla automática lo daba como art. 55, que en realidad regula los derechos generales en el procedimiento). Para la entidad, grabar requiere «conocimiento previo del administrado» (art. 228-B.2.4).",
+   "ojo": "Equivalencia: art. 242 del TUO 2019 → art. 228-D del TUO 2026 (no el art. 55, que regula los derechos generales en el procedimiento). Para la entidad, grabar requiere «conocimiento previo del administrado» (art. 228-B.2.4).",
    "tip": "Si la empresa graba, mantén un registro propio de la diligencia (fotos, videos con conocimiento previo, acta detallada).",
    "leer": "Título IV, Capítulo I-A «La actividad administrativa de fiscalización» (arts. 228-A–228-H), pp. 41–42 del PDF"
   },

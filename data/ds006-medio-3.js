@@ -57,7 +57,7 @@
    "mal": [
     "Tienen vigencia de cinco años renovables, salvo que la ley disponga otra cosa",
     "Tienen la vigencia que cada entidad determine en su propio TUPA",
-    "Tienen vigencia indeterminada, salvo que un reglamento sectorial fije un plazo"
+    "Tienen vigencia indeterminada, salvo que una resolución de la entidad fije un plazo"
    ],
    "por": "El art. 36-B dispone: <q>Los títulos habilitantes emitidos tienen vigencia indeterminada, salvo que por ley o decreto legislativo se establezca un plazo determinado de vigencia</q>, y que, si cambian las condiciones indispensables para su obtención, la autoridad, previa fiscalización, <q>podrá dejar sin efecto el título habilitante</q>. Excepcionalmente, un decreto supremo puede fijar vigencia determinada.",
    "base": "Art. 36-B del TUO de la Ley 27444 (DS 006-2026-JUS)",
