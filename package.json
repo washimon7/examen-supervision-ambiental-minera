@@ -1,0 +1,13 @@
+{
+  "name": "examen-supervision-ambiental-minera",
+  "private": true,
+  "description": "Exámenes de práctica: Reglamento de Supervisión del OEFA y TUO de la LPAG (DS 004-2019-JUS y DS 006-2026-JUS).",
+  "scripts": {
+    "validar": "python3 tools/citas.py --check",
+    "recortes": "python3 tools/citas.py",
+    "test": "python3 tools/citas.py --check && node tests/e2e.mjs"
+  },
+  "devDependencies": {
+    "playwright-core": "1.56.1"
+  }
+}

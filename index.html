@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#2b4c7e">
+  <meta name="description" content="Exámenes de práctica sobre el Reglamento de Supervisión del OEFA y el TUO de la LPAG (DS 004-2019-JUS y DS 006-2026-JUS), con explicación, cita del PDF y página.">
+  <title>Examen de Supervisión Ambiental Minera</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232b4c7e'/%3E%3Cpath d='M14 46 28 22l8 13 5-7 9 18z' fill='%23fff'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <section id="pantalla-inicio">
+      <header class="portada">
+        <p class="sobretitulo">Supervisión ambiental · Sector minero</p>
+        <h1>Examen de práctica</h1>
+        <p class="subtitulo">Reglamento de Supervisión del OEFA y TUO de la LPAG</p>
+        <p class="detalle">3 normas · 2 niveles · 5 exámenes por nivel · 20 preguntas por examen · 4 alternativas</p>
+      </header>
+
+      <div id="continuar" class="continuar" hidden>
+        <div>
+          <strong>Tienes un examen sin terminar</strong>
+          <p id="continuar-texto"></p>
+        </div>
+        <div class="acciones">
+          <button type="button" id="btn-descartar" class="btn">Descartar</button>
+          <button type="button" id="btn-continuar" class="btn btn-primario">Continuar</button>
+        </div>
+      </div>
+
+      <details class="como">
+        <summary>¿Cómo estudiar con esta app?</summary>
+        <ol>
+          <li>Empieza por el nivel <strong>Fácil</strong> de cada norma y después pasa al <strong>Medio</strong>.</li>
+          <li>Al responder verás si acertaste, <strong>por qué</strong>, la <strong>base legal</strong>, el <strong>texto exacto de la norma</strong>, el <strong>extracto del PDF con la cita resaltada</strong> y la página. Toca la imagen para ampliarla o ábrela en el PDF.</li>
+          <li>Lee siempre el recuadro <strong>Ojo</strong>: ahí están las trampas típicas (días hábiles o calendario, plazos parecidos, cambios de numeración).</li>
+          <li>Al final, usa <strong>Practicar las que fallé</strong> hasta que no quede ninguna.</li>
+          <li>Para simular el examen real, desactiva «Mostrar la respuesta al responder»: la revisión aparece al final.</li>
+        </ol>
+      </details>
+
+      <div id="documentos" class="documentos"></div>
+
+    </section>
+
+    <section id="pantalla-quiz" hidden>
+      <div class="quiz-barra">
+        <button id="btn-salir" class="btn btn-texto" type="button">← Salir</button>
+        <span id="quiz-titulo" class="quiz-titulo"></span>
+        <span id="quiz-modo" class="badge"></span>
+      </div>
+      <div class="progreso"><div id="progreso-relleno"></div></div>
+      <p class="contador"><span id="quiz-contador"></span><span id="quiz-aciertos"></span></p>
+
+      <article class="tarjeta">
+        <p id="pregunta-tema" class="etiqueta-tema"></p>
+        <h2 id="pregunta-texto"></h2>
+        <div id="opciones" class="opciones"></div>
+        <div id="explicacion" class="respuesta" hidden></div>
+      </article>
+
+      <div class="navegacion">
+        <button id="btn-anterior" class="btn" type="button">← Anterior</button>
+        <button id="btn-siguiente" class="btn btn-primario" type="button">Siguiente →</button>
+        <button id="btn-finalizar" class="btn btn-primario" type="button" hidden>Finalizar examen</button>
+      </div>
+
+      <div id="mapa" class="mapa" aria-label="Mapa de preguntas"></div>
+      <p class="ayuda-teclado">Atajos: teclas A–D para responder · ← → para moverte</p>
+    </section>
+
+    <section id="pantalla-resultado" hidden>
+      <article class="tarjeta resultado">
+        <p id="res-titulo" class="sobretitulo"></p>
+        <p id="res-nota" class="nota"></p>
+        <p id="res-porcentaje" class="porcentaje"></p>
+        <p id="res-mensaje" class="mensaje"></p>
+        <div id="res-temas" class="res-temas"></div>
+        <div class="acciones">
+          <button id="btn-falladas" class="btn btn-primario" type="button"></button>
+          <button id="btn-revisar" class="btn" type="button"></button>
+          <button id="btn-repetir" class="btn" type="button">Repetir este examen</button>
+          <button id="btn-inicio" class="btn" type="button">Volver al inicio</button>
+        </div>
+      </article>
+      <div id="revision" hidden></div>
+    </section>
+  </main>
+
+  <dialog id="dlg-inicio">
+    <h2 id="dlg-titulo"></h2>
+    <p id="dlg-detalle"></p>
+    <label class="switch-fila">
+      <span class="switch">
+        <input type="checkbox" id="chk-mostrar" checked>
+        <span class="slider"></span>
+      </span>
+      <span class="switch-texto">
+        <strong>Mostrar la respuesta al responder</strong>
+        <small id="dlg-ayuda"></small>
+      </span>
+    </label>
+    <label class="switch-fila">
+      <span class="switch">
+        <input type="checkbox" id="chk-mezclar">
+        <span class="slider"></span>
+      </span>
+      <span class="switch-texto">
+        <strong>Mezclar el orden de las preguntas</strong>
+        <small>Desactivado, las preguntas siguen el orden de la norma, de inicio a fin.</small>
+      </span>
+    </label>
+    <div class="acciones">
+      <button type="button" id="btn-cancelar" class="btn">Cancelar</button>
+      <button type="button" id="btn-comenzar" class="btn btn-primario">Comenzar</button>
+    </div>
+  </dialog>
+
+  <dialog id="dlg-confirmar">
+    <h2 id="conf-titulo"></h2>
+    <p id="conf-texto"></p>
+    <div class="acciones">
+      <button type="button" id="conf-no" class="btn">Seguir en el examen</button>
+      <button type="button" id="conf-si" class="btn btn-primario"></button>
+    </div>
+  </dialog>
+
+  <dialog id="dlg-libro" class="visor" aria-label="Extracto del PDF ampliado">
+    <img id="visor-img" alt="">
+    <div class="visor-pie">
+      <p id="visor-texto"></p>
+      <a id="visor-pdf" class="btn" target="_blank" rel="noopener">Abrir PDF</a>
+      <button type="button" id="visor-cerrar" class="btn">Cerrar</button>
+    </div>
+  </dialog>
+
+  <!-- exámenes: lista generada por tools/citas.py -->
+  <script src="data/oefa-facil-1.js"></script>
+  <script src="data/oefa-facil-2.js"></script>
+  <script src="data/oefa-facil-3.js"></script>
+  <script src="data/oefa-facil-4.js"></script>
+  <script src="data/oefa-facil-5.js"></script>
+  <script src="data/oefa-medio-1.js"></script>
+  <script src="data/oefa-medio-2.js"></script>
+  <script src="data/oefa-medio-3.js"></script>
+  <script src="data/oefa-medio-4.js"></script>
+  <script src="data/oefa-medio-5.js"></script>
+  <script src="data/lpag-facil-1.js"></script>
+  <script src="data/lpag-facil-2.js"></script>
+  <script src="data/lpag-facil-3.js"></script>
+  <script src="data/lpag-facil-4.js"></script>
+  <script src="data/lpag-facil-5.js"></script>
+  <script src="data/lpag-medio-1.js"></script>
+  <script src="data/lpag-medio-2.js"></script>
+  <script src="data/lpag-medio-3.js"></script>
+  <script src="data/lpag-medio-4.js"></script>
+  <script src="data/lpag-medio-5.js"></script>
+  <script src="data/ds006-facil-1.js"></script>
+  <script src="data/ds006-facil-2.js"></script>
+  <script src="data/ds006-facil-3.js"></script>
+  <script src="data/ds006-facil-4.js"></script>
+  <script src="data/ds006-facil-5.js"></script>
+  <script src="data/ds006-medio-1.js"></script>
+  <script src="data/ds006-medio-2.js"></script>
+  <script src="data/ds006-medio-3.js"></script>
+  <!-- /exámenes -->
+  <script src="data/citas-texto.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
