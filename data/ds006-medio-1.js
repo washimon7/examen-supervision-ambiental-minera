@@ -33,7 +33,7 @@
    "ok": "Que la norma está excluida del AIR Ex Ante por aprobar un TUO, según el reglamento del DL 1565",
    "mal": [
     "Que se realizó un AIR Ex Ante simplificado por tratarse de una norma de alcance general",
-    "Que el AIR Ex Ante se hará después de publicado el TUO, dentro de seis meses",
+    "Que el AIR Ex Ante se hará después de publicado el TUO, dentro de los seis meses siguientes",
     "Que el AIR Ex Ante fue reemplazado por la opinión previa del Ministerio de Justicia"
    ],
    "por": "El considerando precisa que, según el literal f) del párrafo 41.1 del artículo 41 del Reglamento del DL 1565 (DS 023-2025-PCM), <q>la presente norma se considera excluida del alcance del Análisis de Impacto Regulatorio (AIR) Ex Ante</q>, al aprobar el TUO de la Ley 27444.",
@@ -80,7 +80,7 @@
    "mal": [
     "Como un proceso a cargo de cada entidad al aprobar su TUPA, con opinión previa del Ministerio de Justicia",
     "Como un proceso conducido por el INDECOPI para eliminar barreras burocráticas en los gobiernos locales",
-    "Como un proceso a cargo del MEF para uniformizar los derechos de tramitación en todo el Estado"
+    "Como un proceso a cargo del MEF para uniformizar los derechos de tramitación de todas las entidades públicas del Estado"
    ],
    "por": "El art. 36-A.1 dispone: <q>La estandarización constituye el proceso promovido y desarrollado por la Presidencia del Consejo de Ministros, en coordinación con la entidad que cuenta con rectoría en la materia</q>, para generar condiciones uniformes y evitar prácticas diferenciadas o exigencias innecesarias.",
    "base": "Art. 36-A.1 del TUO de la Ley 27444 (modificado por el DL 1561)",
@@ -99,7 +99,7 @@
    "id": "ds006-m1-05",
    "tema": "Documentación prohibida",
    "q": "Para un trámite, una entidad exige a una empresa minera información que la propia entidad obtuvo al fiscalizarla hace tres años; los datos no han variado. Según el artículo 40 del TUO 2026:",
-   "ok": "La entidad no puede exigirla: está prohibido pedir información que posea por haber fiscalizado al administrado en los últimos cinco años",
+   "ok": "No puede exigirla: la posee por haber fiscalizado a la empresa dentro de los últimos cinco años",
    "mal": [
     "La entidad puede exigirla, porque la prohibición solo alcanza a la información de trámites del último año",
     "La entidad puede exigirla, porque la información obtenida en fiscalización no está protegida",
@@ -264,7 +264,7 @@
    "mal": [
     "Quedan excluidas del capítulo de fiscalización, por ejercerlas un privado",
     "Se rigen solo por el contrato celebrado entre la entidad y la persona privada",
-    "Se aplican solo si la entidad ratifica cada acta que suscriba el privado"
+    "Se aplican solo si la entidad ratifica expresamente cada acta que suscriba la persona privada"
    ],
    "por": "El art. 228-A.2 dispone que, <q>Independientemente de su denominación</q>, las normas especiales que regulan esta función se interpretan y aplican en el marco de las normas comunes del capítulo, <q>aun cuando conforme al marco legal sean ejercidos por personas naturales o jurídicas privadas</q>.",
    "base": "Art. 228-A.2 del TUO de la Ley 27444 (DS 006-2026-JUS)",
@@ -285,9 +285,9 @@
    "q": "Durante una supervisión programada para verificar el manejo de residuos sólidos de una unidad minera, el supervisor detecta un posible vertimiento no autorizado. Según el artículo 228-B.2 del TUO 2026:",
    "ok": "Puede ampliar o variar el objeto de la fiscalización por haberse detectado incumplimientos adicionales",
    "mal": [
-    "Debe concluir la diligencia y programar otra supervisión con un nuevo objeto",
-    "Solo puede registrar el hecho si la empresa acepta ampliar el objeto",
-    "Debe pedir autorización escrita a su superior antes de verificar el hecho"
+    "Debe concluir la diligencia y programar una nueva supervisión con un objeto distinto, previamente notificado a la empresa",
+    "Solo puede registrar el hecho si la empresa acepta por escrito ampliar el objeto inicial",
+    "Debe pedir autorización escrita a su superior jerárquico antes de verificar el nuevo hecho"
    ],
    "por": "El art. 228-B.2.7 faculta a <q>Ampliar o variar el objeto de la acción de fiscalización</q> en caso de que, como resultado de las diligencias, <q>se detecten incumplimientos adicionales a los expresados inicialmente en el referido objeto</q>.",
    "base": "Art. 228-B.2.7 del TUO de la Ley 27444 (DS 006-2026-JUS)",
@@ -309,7 +309,7 @@
    "ok": "Puede hacerlo: grabar las diligencias en que participa es un derecho del fiscalizado (art. 228-D)",
    "mal": [
     "Necesita autorización previa del jefe de la comisión supervisora (art. 228-C)",
-    "No puede hacerlo, porque la información de la fiscalización es reservada (art. 228-C)",
+    "No puede hacerlo, porque toda la información obtenida en la fiscalización es reservada (art. 228-C)",
     "Solo puede hacerlo si la grabación la realiza un notario público (art. 228-F)"
    ],
    "por": "Entre los derechos de los administrados fiscalizados figura <q>Poder realizar grabaciones en audio o video de las diligencias en las que participen</q>. No se exige autorización ni notario; la reserva del art. 228-C es un deber de la entidad.",
@@ -446,7 +446,7 @@
    "q": "El PAS contra una empresa minera caducó, pero la infracción aún no ha prescrito. Según el artículo 237-A del TUO 2026, ¿qué ocurre?",
    "ok": "Puede evaluarse un nuevo PAS y las medidas dictadas se mantienen tres meses mientras se dispone su inicio",
    "mal": [
-    "El procedimiento caducado interrumpe la prescripción, que vuelve a computarse desde cero",
+    "El procedimiento caducado interrumpe la prescripción, que vuelve a computarse desde cero para la entidad",
     "Se pierden las actuaciones de fiscalización y las pruebas, que deben repetirse íntegramente",
     "Las medidas correctivas y cautelares caducan de inmediato con la declaración de caducidad"
    ],

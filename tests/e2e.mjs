@@ -1,13 +1,16 @@
 // Prueba de punta a punta en el navegador: la app se usa como en un celular (390 × 844, táctil).
-// Uso: node tests/e2e.mjs [carpeta-del-sitio]   (por defecto, la raíz del proyecto)
+// Uso: node tests/e2e.mjs [carpeta-del-sitio | URL]   (por defecto, la raíz del proyecto)
 // Requiere Google Chrome instalado (playwright-core lo usa con channel: "chrome").
 import { createServer } from "node:http";
-import { readFile, mkdir, readdir } from "node:fs/promises";
+import { readFile, mkdir } from "node:fs/promises";
 import { extname, join, normalize, resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { chromium } from "playwright-core";
 
-const RAIZ = resolve(process.argv[2] || join(dirname(fileURLToPath(import.meta.url)), ".."));
+const ARG = process.argv[2] || "";
+const REMOTO = /^https?:\/\//.test(ARG);
+const PROYECTO = join(dirname(fileURLToPath(import.meta.url)), "..");
+const RAIZ = REMOTO ? PROYECTO : resolve(ARG || PROYECTO);
 const SALIDA = join(RAIZ, "test-results");
 const TIPOS = { ".html": "text/html; charset=utf-8", ".js": "text/javascript; charset=utf-8", ".css": "text/css", ".png": "image/png", ".pdf": "application/pdf" };
 
@@ -33,7 +36,8 @@ const servidor = createServer(async (req, res) => {
   }
 });
 await new Promise((ok) => servidor.listen(0, "127.0.0.1", ok));
-const URL_APP = `http://127.0.0.1:${servidor.address().port}/`;
+const URL_APP = REMOTO ? ARG : `http://127.0.0.1:${servidor.address().port}/`;
+console.log(`Probando ${URL_APP}`);
 await mkdir(SALIDA, { recursive: true });
 
 const navegador = await chromium.launch({ channel: "chrome", headless: true });
@@ -64,14 +68,14 @@ const resumen = await pagina.evaluate(() => {
     botones: document.querySelectorAll(".btn-examen").length,
     activos: document.querySelectorAll(".btn-examen:not(:disabled)").length,
     docs: document.querySelectorAll(".documento").length,
+    archivos: document.querySelectorAll('script[src^="data/"][src$=".js"]:not([src*="citas-texto"])').length,
   };
 });
 console.log(`  ${resumen.examenes} exámenes · ${resumen.preguntas} preguntas`);
 comprobar(resumen.docs === 3, `deben verse 3 normas (hay ${resumen.docs})`);
 comprobar(resumen.botones === 30, `deben verse 30 botones de examen (hay ${resumen.botones})`);
 comprobar(resumen.activos === resumen.examenes, `cada examen cargado debe tener su botón activo (${resumen.activos} de ${resumen.examenes})`);
-const archivos = (await readdir(join(RAIZ, "data"))).filter((f) => /^[a-z0-9]+-(facil|medio)-\d\.js$/.test(f)).length;
-comprobar(resumen.examenes === archivos, `deben cargarse los ${archivos} exámenes de data/ (hay ${resumen.examenes})`);
+comprobar(resumen.examenes === resumen.archivos && resumen.examenes > 0, `deben cargarse los ${resumen.archivos} exámenes enlazados (hay ${resumen.examenes})`);
 comprobar(await sinDesborde(), "el inicio no debe desbordar a lo ancho en el celular");
 await pagina.screenshot({ path: join(SALIDA, "inicio.png") });
 

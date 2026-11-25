@@ -292,7 +292,7 @@
    "mal": [
     "El procedimiento que determina la responsabilidad del administrado e impone la sanción correspondiente",
     "La verificación por muestreo de las declaraciones presentadas en procedimientos de aprobación automática",
-    "El conjunto de medidas cautelares que la entidad dicta para asegurar la eficacia de la resolución"
+    "El conjunto de medidas cautelares y correctivas que la entidad dicta para asegurar la eficacia de la resolución final"
    ],
    "por": "El art. 228-A.1 define la fiscalización como <q>el conjunto de actos y diligencias de investigación, supervisión, control o inspección</q> sobre el cumplimiento de obligaciones, prohibiciones y limitaciones, bajo un enfoque de cumplimiento normativo, prevención y gestión del riesgo. Sancionar corresponde al PAS y el muestreo es la «fiscalización posterior» del art. 32.",
    "base": "Art. 228-A.1 del TUO de la Ley 27444 (DS 006-2026-JUS)",
@@ -338,7 +338,7 @@
    "mal": [
     "Presentar solo la resolución que aprueba el plan anual de fiscalización",
     "Mostrar su DNI y el contrato o designación que lo vincula a la entidad",
-    "Indicar verbalmente su nombre y cargo, que luego consta en el acta"
+    "Indicar verbalmente su nombre, cargo y unidad orgánica, datos que luego se consignan en el acta"
    ],
    "por": "El art. 228-C.2.2 impone el deber de <q>Identificarse a requerimiento de los administrados, presentando la credencial otorgada por su entidad, así como su documento nacional de identidad</q>.",
    "base": "Art. 228-C.2.2 del TUO de la Ley 27444 (DS 006-2026-JUS)",

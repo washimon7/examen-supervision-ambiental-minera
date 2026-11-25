@@ -175,7 +175,7 @@
    "q": "Durante una supervisión a una unidad minera para verificar el manejo de residuos, el equipo detecta un posible incumplimiento adicional en el tratamiento de efluentes. Según el artículo 240, ¿qué puede hacer la autoridad?",
    "ok": "Ampliar o variar el objeto de la acción de fiscalización",
    "mal": [
-    "Concluir la diligencia y programar otra con nuevo objeto",
+    "Concluir la diligencia, porque no puede variar el objeto inicial",
     "Registrar el hecho solo si el administrado lo autoriza",
     "Imponer en el acto la sanción correspondiente"
    ],

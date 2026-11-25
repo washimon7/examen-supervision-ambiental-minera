@@ -80,7 +80,7 @@
    "mal": [
     "Debe acreditar un interés legítimo y directo para que la denuncia sea admitida",
     "Se convierte automáticamente en parte del procedimiento sancionador que se inicie",
-    "Debe presentar la denuncia con firma de abogado y prueba documental del hecho"
+    "Debe presentar la denuncia con firma de abogado colegiado y prueba documental de los hechos denunciados"
    ],
    "por": "El art. 105.1 faculta a todo administrado a comunicar hechos contrarios al ordenamiento <q>sin necesidad de sustentar la afectación inmediata de algún derecho o interés legítimo, ni que por esta actuación sea considerado sujeto del procedimiento</q>.",
    "base": "Art. 105.1 del TUO de la Ley 27444 (DS 006-2026-JUS)",
@@ -263,7 +263,7 @@
    "ok": "Dejan constancia de los hechos verificados durante la diligencia, salvo prueba en contrario",
    "mal": [
     "Constituyen prueba plena e irrefutable de los hechos verificados en la diligencia",
-    "Solo tienen valor si el administrado las firma en señal de conformidad",
+    "Solo tienen valor probatorio si el representante del administrado las firma en señal de conformidad",
     "Solo tienen valor si las ratifica posteriormente la autoridad instructora"
    ],
    "por": "El art. 228-F.2 dispone: <q>Las Actas de fiscalización dejan constancia de los hechos verificados durante la diligencia, salvo prueba en contrario</q>.",
@@ -285,9 +285,9 @@
    "q": "Según el artículo 229.2 del TUO 2026, las disposiciones del capítulo del procedimiento sancionador, frente a los procedimientos sancionadores regulados por leyes especiales:",
    "ok": "Se aplican supletoriamente, y los especiales no pueden dar condiciones menos favorables",
    "mal": [
-    "No se aplican, porque la ley especial desplaza íntegramente al TUO",
-    "Se aplican solo si la ley especial lo dispone de forma expresa",
-    "Se aplican solo a los procedimientos tributarios y aduaneros"
+    "No se aplican, porque la ley especial desplaza íntegramente las reglas del TUO",
+    "Se aplican solo si la ley especial lo dispone de forma expresa y por remisión",
+    "Se aplican solo a los procedimientos tributarios, aduaneros y de comercio exterior"
    ],
    "por": "El art. 229.2 dispone que las disposiciones del capítulo <q>se aplican con carácter supletorio a todos los procedimientos establecidos en leyes especiales</q>, que deben observar los principios del art. 230, y que los procedimientos especiales no pueden imponer condiciones menos favorables a los administrados que <q>las previstas en este Capítulo</q>.",
    "base": "Art. 229.2 del TUO de la Ley 27444 (DS 006-2026-JUS)",
@@ -354,7 +354,7 @@
    "q": "Según el artículo 233.3 del TUO 2026, ¿cómo se hace valer la prescripción de la facultad para determinar infracciones?",
    "ok": "La autoridad la declara de oficio y el administrado puede plantearla por vía de defensa",
    "mal": [
-    "Solo el administrado puede plantearla, mediante recurso de reconsideración",
+    "Solo el administrado puede plantearla, mediante un recurso de reconsideración con nueva prueba",
     "Solo la autoridad puede declararla, sin que el administrado pueda alegarla",
     "Solo puede declararla el Poder Judicial en un proceso contencioso-administrativo"
    ],
@@ -423,7 +423,7 @@
    "q": "Según el artículo 236.1 del TUO 2026, ¿en qué momento puede la autoridad que tramita el PAS disponer medidas de carácter provisional?",
    "ok": "En cualquier momento, para asegurar la eficacia de la resolución final",
    "mal": [
-    "Solo antes de notificar la imputación de cargos",
+    "Solo antes de notificar la imputación de cargos al administrado investigado",
     "Solo después de emitir el informe final de instrucción",
     "Solo cuando la resolución de sanción haya quedado firme"
    ],

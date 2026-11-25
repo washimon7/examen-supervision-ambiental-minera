@@ -125,7 +125,7 @@
    "ok": "No es necesaria la posterior presentación física de la documentación",
    "mal": [
     "Debe presentarla físicamente dentro del tercer día de enviada",
-    "Debe presentarla físicamente dentro de cinco días hábiles",
+    "Debe presentarla físicamente en la mesa de partes dentro de cinco días hábiles",
     "Solo es válida si luego la ratifica en comparecencia personal"
    ],
    "por": "El art. 123.3, modificado por la Ley 31465, dispone que cuando se emplean medios de transmisión de datos a distancia <q>no es necesaria la posterior presentación física de la documentación remitida</q>.",
@@ -149,7 +149,7 @@
    "mal": [
     "Desde el mismo día en que se practicó la notificación del acto",
     "A partir del día calendario siguiente a la notificación del acto",
-    "Desde la fecha de expedición del acto que se notifica"
+    "Desde la fecha de expedición del acto que se notifica, aunque se notifique después"
    ],
    "por": "El art. 133.1 establece que el plazo expresado en días <q>es contado a partir del día hábil siguiente de aquel en que se practique la notificación o la publicación del acto</q>, salvo que el acto señale una fecha posterior.",
    "base": "Art. 133.1 del TUO de la Ley 27444 (DS 006-2026-JUS)",
@@ -212,29 +212,6 @@
   },
   {
    "id": "ds006-f2-10",
-   "tema": "Reconsideración",
-   "q": "Según el artículo 208 del TUO 2026, el recurso de reconsideración:",
-   "ok": "Se interpone ante el mismo órgano que dictó el acto y se sustenta en nueva prueba",
-   "mal": [
-    "Se interpone ante el superior jerárquico y se sustenta en cuestiones de puro derecho",
-    "Se interpone ante el mismo órgano y se sustenta en diferente interpretación de las pruebas",
-    "Se interpone ante el superior jerárquico y debe sustentarse siempre en nueva prueba"
-   ],
-   "por": "El art. 208 dispone que la reconsideración <q>se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba</q>. La diferente interpretación de las pruebas y el puro derecho son fundamentos de la apelación (art. 209).",
-   "base": "Art. 208 del TUO de la Ley 27444 (DS 006-2026-JUS)",
-   "cita": [
-    [
-     39,
-     "Artículo 208.- Recurso de reconsideración",
-     "deberá sustentarse en nueva prueba"
-    ]
-   ],
-   "ojo": "Equivalencia: art. 219 del TUO 2019 → art. 208 del TUO 2026. Excepción: contra actos de órganos de única instancia no se requiere nueva prueba.",
-   "tip": "«Reconsideración = mismo órgano + nueva prueba; apelación = superior + interpretación o derecho».",
-   "leer": "Título III, Capítulo II «Recursos Administrativos» (arts. 206–218), pp. 38–39 del PDF"
-  },
-  {
-   "id": "ds006-f2-11",
    "tema": "Plazo de la apelación",
    "q": "Tras las modificaciones de la Ley 31603 y del DL 1633, ¿en qué plazo deben resolverse los recursos de apelación según el artículo 207.2 del TUO 2026?",
    "ok": "Treinta (30) días, igual que en el TUO 2019",
@@ -262,13 +239,36 @@
    "leer": "Título III, Capítulo II «Recursos Administrativos» (arts. 206–218), pp. 38–39 del PDF"
   },
   {
+   "id": "ds006-f2-11",
+   "tema": "Reconsideración",
+   "q": "Según el artículo 208 del TUO 2026, el recurso de reconsideración:",
+   "ok": "Se interpone ante el mismo órgano que dictó el acto y se sustenta en nueva prueba",
+   "mal": [
+    "Se interpone ante el superior jerárquico y se sustenta en cuestiones de puro derecho",
+    "Se interpone ante el mismo órgano y se sustenta en diferente interpretación de las pruebas",
+    "Se interpone ante el superior jerárquico y debe sustentarse siempre en nueva prueba"
+   ],
+   "por": "El art. 208 dispone que la reconsideración <q>se interpondrá ante el mismo órgano que dictó el primer acto que es materia de la impugnación y deberá sustentarse en nueva prueba</q>. La diferente interpretación de las pruebas y el puro derecho son fundamentos de la apelación (art. 209).",
+   "base": "Art. 208 del TUO de la Ley 27444 (DS 006-2026-JUS)",
+   "cita": [
+    [
+     39,
+     "Artículo 208.- Recurso de reconsideración",
+     "deberá sustentarse en nueva prueba"
+    ]
+   ],
+   "ojo": "Equivalencia: art. 219 del TUO 2019 → art. 208 del TUO 2026. Excepción: contra actos de órganos de única instancia no se requiere nueva prueba.",
+   "tip": "«Reconsideración = mismo órgano + nueva prueba; apelación = superior + interpretación o derecho».",
+   "leer": "Título III, Capítulo II «Recursos Administrativos» (arts. 206–218), pp. 38–39 del PDF"
+  },
+  {
    "id": "ds006-f2-12",
    "tema": "Inicio de la fiscalización",
    "q": "Según el artículo 228-B.1 del TUO 2026, los actos y diligencias de fiscalización se inician:",
    "ok": "Siempre de oficio, por propia iniciativa, orden superior, petición motivada o denuncia",
    "mal": [
     "De oficio o a solicitud del administrado que quiera certificar su cumplimiento",
-    "Solo por denuncia o por petición motivada de otra entidad pública",
+    "Solo por denuncia ciudadana o por petición motivada de otra entidad pública competente",
     "De oficio, previa notificación al administrado con cinco días de anticipación"
    ],
    "por": "El art. 228-B.1 dispone que los actos y diligencias de fiscalización <q>se inician siempre de oficio, bien por propia iniciativa o como consecuencia de orden superior, petición motivada o por denuncia</q>.",
@@ -291,7 +291,7 @@
    "ok": "Entregar copia del Acta de Fiscalización al administrado, con sus observaciones",
    "mal": [
     "Notificar el acta al administrado dentro de cinco días hábiles",
-    "Remitir el acta solo a la autoridad instructora del PAS",
+    "Remitir el acta solo a la autoridad instructora del PAS, sin entregar copia a la empresa",
     "Entregar copia del acta solo si el administrado la pide por escrito"
    ],
    "por": "Entre los deberes de la entidad está <q>Entregar copia del Acta de Fiscalización o documento que haga sus veces al administrado al finalizar la diligencia de inspección</q>, consignando de manera clara y precisa las observaciones que formule el administrado.",
@@ -336,9 +336,9 @@
    "q": "Según el artículo 228-H del TUO 2026, las entidades pueden dictar medidas cautelares y correctivas:",
    "ok": "Solo si están habilitadas por ley o decreto legislativo, con decisión motivada y proporcional",
    "mal": [
-    "Siempre que estén previstas en un reglamento o en una resolución ministerial",
-    "Solo dentro de un PAS ya iniciado y previa audiencia al administrado",
-    "Libremente, como parte de sus facultades generales de fiscalización"
+    "Siempre que estén previstas en un reglamento o en una resolución ministerial del sector",
+    "Solo dentro de un PAS ya iniciado y previa audiencia otorgada al administrado fiscalizado",
+    "Libremente, como parte de sus facultades generales de fiscalización, sin otro requisito"
    ],
    "por": "El art. 228-H dispone que las entidades <q>solo podrán dictar medidas cautelares y correctivas siempre que estén habilitadas por Ley o Decreto Legislativo y mediante decisión debidamente motivada y observando el Principio de Proporcionalidad</q>.",
    "base": "Art. 228-H del TUO de la Ley 27444 (DS 006-2026-JUS)",
@@ -380,7 +380,7 @@
    "id": "ds006-f2-17",
    "tema": "Principio de legalidad",
    "q": "Según el principio de legalidad de la potestad sancionadora (art. 230.1 del TUO 2026):",
-   "ok": "Solo por norma con rango de ley se atribuye la potestad sancionadora, sin habilitar la privación de libertad",
+   "ok": "Solo una norma con rango de ley la atribuye, y nunca habilita la privación de libertad",
    "mal": [
     "Basta un reglamento para atribuir potestad sancionadora si lo aprueba el sector",
     "Solo por ley se atribuye la potestad, que en casos graves habilita la privación de libertad",
@@ -407,7 +407,7 @@
    "mal": [
     "Objetiva, salvo que el administrado acredite caso fortuito o fuerza mayor",
     "Subjetiva, salvo que un reglamento sectorial disponga la responsabilidad objetiva",
-    "Objetiva en todos los procedimientos sancionadores de las entidades"
+    "Objetiva en todos los procedimientos sancionadores, sin admitir prueba de diligencia alguna"
    ],
    "por": "El art. 230.10 establece: <q>La responsabilidad administrativa es subjetiva, salvo los casos en que por ley o decreto legislativo se disponga la responsabilidad administrativa objetiva</q>.",
    "base": "Art. 230.10 del TUO de la Ley 27444 (DS 006-2026-JUS)",

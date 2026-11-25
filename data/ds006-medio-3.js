@@ -9,7 +9,7 @@
    "q": "Según los considerandos del DS 006-2026-JUS, ¿con qué materias se relacionan los numerales y artículos que el DL 1452 modificó e incorporó a la Ley 27444?",
    "ok": "Las modalidades de notificación y los procedimientos de evaluación previa con silencio negativo, entre otros",
    "mal": [
-    "El plazo para resolver la reconsideración y los consejos directivos de los organismos reguladores",
+    "El plazo para resolver la reconsideración y la excepción para los consejos directivos de los organismos reguladores",
     "La recepción documental digital y la mesa de partes digital de veinticuatro horas",
     "Los derechos de tramitación de las MYPE y el registro de signos distintivos"
    ],
@@ -32,9 +32,9 @@
    "q": "¿Cuál de las siguientes parejas «norma modificatoria – materia» es correcta según los considerandos del DS 006-2026-JUS?",
    "ok": "DL 1561 – procedimientos y servicios en exclusividad estandarizados y ratificación de tasas",
    "mal": [
-    "Ley 31724 – plazo para resolver el recurso de reconsideración",
-    "DL 1633 – facilitación de la recepción documental digital",
-    "Ley 31465 – límites de los derechos de tramitación de las MYPE"
+    "Ley 31724 – plazo para resolver el recurso de reconsideración en instancia única",
+    "DL 1633 – facilitación de la recepción documental digital y la mesa de partes digital",
+    "Ley 31465 – límites de los derechos de tramitación aplicables a las MYPE"
    ],
    "por": "El considerando describe el DL 1561 como la norma que modifica la Ley 27444 <q>para fortalecer la regulación de los procedimientos administrativos y servicios prestados en exclusividad estandarizados y del proceso de ratificación de tasas</q>. Las otras parejas cruzan materias: la reconsideración es de la Ley 31603, la recepción digital de la Ley 31465 y el art. 45.2 de la Ley 31724.",
    "base": "Considerandos del DS 006-2026-JUS (DL Nº 1561)",
@@ -78,9 +78,9 @@
    "q": "Tras el DL 1561, cuando la PCM aprueba procedimientos estandarizados, ¿en qué plazo deben las entidades actualizar su TUPA según el artículo 36-A.6 del TUO 2026?",
    "ok": "Cinco días hábiles desde la vigencia de la norma, salvo que esta fije un plazo mayor",
    "mal": [
-    "Cinco días hábiles, plazo que ninguna norma puede ampliar",
-    "Sesenta días hábiles desde la publicación de la norma",
-    "Treinta días calendario desde la vigencia de la norma"
+    "Cinco días hábiles desde la vigencia, plazo que ninguna norma puede ampliar",
+    "Sesenta días hábiles desde la publicación de la norma que aprueba la estandarización",
+    "Treinta días calendario desde la vigencia de la norma que estandariza"
    ],
    "por": "El art. 36-A.6 fija la consecuencia de no actualizar el TUPA <q>dentro de los cinco (5) días hábiles posteriores a la entrada en vigencia</q> de la norma y añade que esta <q>puede disponer un plazo mayor para la actualización</q> cuando la estandarización comprenda un número significativo de procedimientos.",
    "base": "Art. 36-A.6 del TUO de la Ley 27444 (modificado por el DL 1561)",
@@ -124,9 +124,9 @@
    "q": "Una especialista, cuyo informe técnico influirá en el sentido de la resolución de un procedimiento contra una empresa minera, trabajó como consultora de esa empresa hasta hace ocho meses. Según el artículo 88 del TUO 2026:",
    "ok": "Debe abstenerse, por haber tenido relación de servicio con la empresa en los últimos doce meses",
    "mal": [
-    "No debe abstenerse, porque el impedimento solo alcanza a los últimos seis meses",
-    "Solo debe abstenerse si la empresa lo pide expresamente mediante recusación",
-    "No debe abstenerse, porque solo emite opinión y no tiene facultad resolutiva"
+    "No debe abstenerse, porque el impedimento solo alcanza a los últimos seis meses de servicio",
+    "Solo debe abstenerse si la empresa lo pide expresamente mediante una recusación motivada",
+    "No debe abstenerse, porque solo emite opinión técnica y no tiene facultad resolutiva"
    ],
    "por": "El art. 88 obliga a abstenerse a la autoridad con facultad resolutiva <q>o cuyas opiniones sobre el fondo del procedimiento puedan influir en el sentido de la resolución</q>, entre otros casos, cuando <q>tuviere o hubiese tenido en los últimos doce (12) meses, relación de servicio o de subordinación</q> con cualquiera de los administrados.",
    "base": "Art. 88.5 del TUO de la Ley 27444 (DS 006-2026-JUS)",
@@ -196,7 +196,7 @@
    "id": "ds006-m3-09",
    "tema": "Adelantamiento de plazos",
    "q": "Según el artículo 141 del TUO 2026, ¿puede la autoridad instructora reducir plazos o anticipar términos?",
-   "ok": "Sí, los dirigidos a la administración, mediante decisión irrecurrible y por oportunidad o conveniencia",
+   "ok": "Sí, los dirigidos a la administración, mediante decisión irrecurrible",
    "mal": [
     "Sí, incluso los plazos de descargo del administrado, mediante decisión motivada",
     "No; los plazos del procedimiento solo pueden ampliarse, nunca reducirse",
@@ -290,9 +290,9 @@
    "q": "Dos entidades con competencias sobre una misma unidad minera quieren coordinar sus acciones. Según el artículo 228-A.1 del TUO 2026:",
    "ok": "Por eficacia y economía pueden realizar fiscalizaciones conjuntas o encargos de gestión entre sí",
    "mal": [
-    "Solo pueden fiscalizar por separado, porque la competencia es indelegable",
-    "Solo pueden fiscalizar juntas si lo autoriza un decreto supremo de la PCM",
-    "Pueden fusionar sus competencias mediante convenio y sancionar en conjunto"
+    "Solo pueden fiscalizar por separado, porque cada competencia es indelegable e intransferible",
+    "Solo pueden fiscalizar juntas si lo autoriza previamente un decreto supremo de la PCM",
+    "Pueden fusionar sus competencias mediante convenio y sancionar en un solo procedimiento"
    ],
    "por": "El art. 228-A.1 dispone: <q>Por razones de eficacia y economía, las autoridades pueden coordinar para la realización de acciones de fiscalización conjunta o realizar encargos de gestión entre sí</q>.",
    "base": "Art. 228-A.1 (tercer párrafo) del TUO de la Ley 27444 (DS 006-2026-JUS)",
@@ -360,7 +360,7 @@
    "ok": "Especificar o graduar conductas y sanciones, sin crear nuevas conductas, salvo que la ley lo permita",
    "mal": [
     "Crear nuevas conductas sancionables cuando la ley no haya previsto alguna para el sector",
-    "Tipificar infracciones por analogía con otras ya previstas en normas con rango de ley",
+    "Tipificar infracciones por analogía con otras ya previstas en normas con rango de ley del mismo sector",
     "Imponer obligaciones nuevas no previstas en ninguna norma legal o reglamentaria previa"
    ],
    "por": "El art. 230.4 dispone que <q>Las disposiciones reglamentarias de desarrollo pueden especificar o graduar aquellas dirigidas a identificar las conductas o determinar sanciones</q>, sin constituir nuevas conductas sancionables, <q>salvo los casos en que la ley o Decreto Legislativo permita tipificar infracciones por norma reglamentaria</q>.",
@@ -451,7 +451,7 @@
    "q": "Vencidos los nueve meses de un PAS, el órgano competente emite al día siguiente una resolución que amplía el plazo por tres meses. Según el artículo 237-A.1 del TUO 2026, esa ampliación:",
    "ok": "No es válida, porque la ampliación debe disponerse antes del vencimiento",
    "mal": [
-    "Es válida, porque se dispuso dentro del máximo de tres meses",
+    "Es válida, porque se dispuso dentro del máximo legal de tres meses adicionales",
     "Es válida, siempre que la resolución esté debidamente sustentada",
     "Es válida si el administrado no se opone dentro de cinco días"
    ],

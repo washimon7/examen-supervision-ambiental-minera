@@ -84,7 +84,7 @@
    "ok": "Responsabilidad disciplinaria para la autoridad obligada",
    "mal": [
     "La nulidad automática de la actuación realizada fuera de plazo",
-    "La aprobación automática de lo solicitado",
+    "La extinción del deber de la entidad de resolver",
     "La caducidad de todo procedimiento en trámite"
    ],
    "por": "El numeral 154.1 dispone que <q>El incumplimiento injustificado de los plazos previstos para las actuaciones de las entidades genera responsabilidad disciplinaria para la autoridad obligada</q>, sin perjuicio de la responsabilidad civil. La actuación fuera de término no es nula, salvo que la ley lo disponga (151.3).",

@@ -9,9 +9,9 @@
    "q": "Según los considerandos del DS 006-2026-JUS, ¿qué hizo el Decreto Legislativo Nº 1633?",
    "ok": "Amplió el plazo de los consejos directivos de los organismos reguladores para resolver reconsideraciones en instancia única",
    "mal": [
-    "Redujo el plazo de todas las entidades para resolver los recursos de apelación en segunda instancia",
-    "Amplió el plazo para interponer recursos administrativos contra actos de los organismos reguladores",
-    "Eliminó el requisito de nueva prueba en las reconsideraciones ante los organismos reguladores"
+    "Redujo el plazo de todas las entidades para resolver los recursos de apelación interpuestos en segunda instancia",
+    "Amplió el plazo para interponer recursos contra los actos de los consejos directivos de los organismos reguladores",
+    "Eliminó el requisito de nueva prueba en las reconsideraciones interpuestas ante los consejos directivos de los organismos reguladores"
    ],
    "por": "El considerando dice que el DL 1633 modificó el numeral 207.2 y <q>se amplió el plazo para que los consejos directivos de los organismos reguladores puedan resolver los recursos de reconsideración interpuestos en instancia única</q>.",
    "base": "Considerandos del DS 006-2026-JUS (DL Nº 1633)",
@@ -148,7 +148,7 @@
    "ok": "No; incluso por fuerza mayor deben mantener el servicio de recepción documental",
    "mal": [
     "Sí, mediante resolución de su titular publicada con anticipación",
-    "Sí, cuando una fuerza mayor impida el normal funcionamiento",
+    "Sí, cuando una fuerza mayor impida el normal funcionamiento de sus servicios de atención",
     "No, salvo que lo autorice la Presidencia del Consejo de Ministros"
    ],
    "por": "El art. 137.3 dispone que <q>Las entidades no pueden unilateralmente inhabilitar días</q> y que, aun en caso de fuerza mayor, deben garantizar <q>el mantenimiento del servicio de su unidad de recepción documental</q>. Los días inhábiles los fija el Poder Ejecutivo por decreto supremo (art. 137.1).",
@@ -264,7 +264,7 @@
    "mal": [
     "No, toda inspección requiere notificación previa al administrado con al menos un día hábil de anticipación",
     "Solo si existe una denuncia previa y una autorización judicial expresa para realizar la diligencia",
-    "Solo cuando se trate de instalaciones abiertas al público y en horario de atención al usuario"
+    "Solo cuando se trate de instalaciones abiertas al público y dentro del horario de atención al usuario del local fiscalizado"
    ],
    "por": "El art. 228-B.2.3 faculta a <q>Realizar inspecciones, con o sin previa notificación</q>, en los locales y/o bienes de las personas objeto de fiscalización, respetando el derecho fundamental a la <q>inviolabilidad del domicilio cuando corresponda</q>.",
    "base": "Art. 228-B.2.3 del TUO de la Ley 27444 (DS 006-2026-JUS)",
@@ -331,9 +331,9 @@
    "q": "Según el artículo 228-G.1 del TUO 2026, ¿cuál de las siguientes es una forma en que pueden concluir las actuaciones de fiscalización?",
    "ok": "La recomendación del inicio de un procedimiento para determinar responsabilidades",
    "mal": [
-    "La imposición directa de una multa al administrado fiscalizado",
-    "La declaración de caducidad del procedimiento sancionador",
-    "La revocación del título habilitante del administrado"
+    "La imposición directa de una multa al administrado por el propio fiscalizador",
+    "La declaración de caducidad del procedimiento sancionador en trámite",
+    "La revocación inmediata del título habilitante del administrado fiscalizado"
    ],
    "por": "El art. 228-G.1 enumera formas de conclusión, entre ellas <q>La recomendación del inicio de un procedimiento con el fin de determinar las responsabilidades administrativas que correspondan</q>. La multa solo se impone en un PAS, previa instrucción.",
    "base": "Art. 228-G.1.4 del TUO de la Ley 27444 (DS 006-2026-JUS)",
@@ -400,7 +400,7 @@
    "q": "Iniciado un PAS, una empresa minera reconoce su responsabilidad de forma expresa y por escrito, y la sanción aplicable es multa. Según el art. 236-A del TUO 2026:",
    "ok": "La multa se reduce hasta un monto no menor de la mitad de su importe",
    "mal": [
-    "La empresa queda eximida de toda responsabilidad",
+    "La empresa queda eximida de toda responsabilidad administrativa por la infracción",
     "La multa se reduce hasta un monto no menor de un tercio",
     "La multa se reduce en un monto fijo del diez por ciento"
    ],

@@ -241,7 +241,7 @@
    "mal": [
     "La sanción nunca supere el beneficio económico obtenido por el infractor",
     "La sanción sea siempre la mínima prevista para la infracción cometida",
-    "La sanción se fije solo según el tamaño de la empresa infractora"
+    "La sanción se fije solo según el tamaño y la capacidad económica de la empresa infractora"
    ],
    "por": "El art. 230.3 dispone que las autoridades <q>deben prever que la comisión de la conducta sancionable no resulte más ventajosa para el infractor que cumplir las normas infringidas o asumir la sanción</q>, y que las sanciones sean proporcionales según los criterios de graduación.",
    "base": "Art. 230.3 del TUO de la Ley 27444 (DS 006-2026-JUS)",
@@ -264,7 +264,7 @@
    "mal": [
     "Las conductas que la autoridad califique como dañinas, aunque no estén tipificadas expresamente",
     "Las infracciones previstas en cualquier norma, interpretadas por analogía cuando sea necesario",
-    "Las conductas descritas en los instrumentos de gestión ambiental, aunque no estén tipificadas"
+    "Las conductas descritas en los instrumentos de gestión ambiental, aunque no estén tipificadas como infracción"
    ],
    "por": "El art. 230.4 dispone: <q>Solo constituyen conductas sancionables administrativamente las infracciones previstas expresamente en normas con rango de ley mediante su tipificación como tales, sin admitir interpretación extensiva o analogía</q>, salvo que la ley o decreto legislativo permita tipificar por vía reglamentaria.",
    "base": "Art. 230.4 del TUO de la Ley 27444 (DS 006-2026-JUS)",
@@ -306,10 +306,10 @@
    "id": "ds006-f5-14",
    "tema": "Sanción y medida correctiva",
    "q": "Según el artículo 232.1 del TUO 2026, ¿son compatibles la sanción administrativa y las medidas correctivas?",
-   "ok": "Sí; la sanción es compatible con medidas correctivas que ordenen reponer o reparar la situación alterada",
+   "ok": "Sí; son compatibles con medidas correctivas que ordenen reponer o reparar lo alterado",
    "mal": [
     "No; la imposición de la sanción excluye cualquier medida correctiva posterior",
-    "Solo si la medida correctiva se dicta antes de que se imponga la sanción",
+    "Solo si la medida correctiva se dicta antes de que se imponga la sanción de multa",
     "Solo si el administrado reconoce previamente su responsabilidad por escrito"
    ],
    "por": "El art. 232.1 dispone que las sanciones <q>son compatibles con el dictado de medidas correctivas conducentes a ordenar la reposición o la reparación de la situación alterada por la infracción a su estado anterior</q>, incluyendo la de los bienes afectados.",
@@ -333,7 +333,7 @@
    "mal": [
     "Se tiene por reconocida la infracción y se impone directamente la sanción propuesta",
     "Se archiva el procedimiento por falta de impulso del administrado imputado",
-    "Se otorga de oficio un nuevo plazo de descargos de diez días hábiles"
+    "Se otorga de oficio a la empresa un nuevo plazo de descargos de diez días hábiles improrrogables"
    ],
    "por": "El art. 235.4 dispone que, <q>Vencido dicho plazo y con el respectivo descargo o sin él</q>, la autoridad que instruye <q>realizará de oficio todas las actuaciones necesarias para el examen de los hechos</q>.",
    "base": "Art. 235.4 del TUO de la Ley 27444 (DS 006-2026-JUS)",
@@ -448,7 +448,7 @@
    "mal": [
     "Indicando el número del artículo seguido de «del TUO aprobado por DS 006-2026-JUS»",
     "Indicando el número del artículo y la norma modificatoria que le dio su texto vigente",
-    "Indicando el número del artículo seguido de «del Reglamento de la LPAG»"
+    "Indicando el número del artículo seguido de «del Reglamento de la Ley del Procedimiento Administrativo»"
    ],
    "por": "La Primera disposición señala que las referencias <q>se efectuarán indicando el número del artículo seguido de la mención</q> «de la Ley del Procedimiento Administrativo General». Como el TUO 2026 sigue la numeración de la Ley 27444, el número del artículo es el mismo.",
    "base": "Primera Disposición Complementaria y Final del TUO de la Ley 27444",

@@ -34,7 +34,7 @@
    "mal": [
     "Porque se trató de una norma de urgencia dictada durante un estado de emergencia nacional",
     "Porque el Ministerio de Justicia emitió opinión previa favorable sobre el proyecto",
-    "Porque la Ley 27444 prohíbe expresamente prepublicar los textos únicos ordenados"
+    "Porque la Ley 27444 prohíbe expresamente prepublicar los proyectos de textos únicos ordenados de leyes"
    ],
    "por": "El considerando explica que el reglamento aprobado por DS 009-2024-JUS, en el literal d) del párrafo 19.2 de su artículo 19, <q>establece que se exceptúa de la publicación a las disposiciones que aprueban Textos Únicos Ordenados</q>, por lo que <q>corresponde que se exceptúe la publicación del proyecto</q>.",
    "base": "Considerandos del DS 006-2026-JUS (Reglamento aprobado por DS 009-2024-JUS)",
@@ -78,9 +78,9 @@
    "q": "Un colega cita el «art. 32 del TUO 2026» como base legal de una supervisión de campo a una unidad minera. ¿Qué regula realmente ese artículo?",
    "ok": "La fiscalización posterior por muestreo de declaraciones y documentos presentados en trámites",
    "mal": [
-    "La definición de la actividad administrativa de fiscalización y sus enfoques",
-    "Las facultades de las entidades que realizan actividad de fiscalización",
-    "El contenido mínimo del acta que se levanta en la fiscalización de campo"
+    "La definición de la actividad administrativa de fiscalización y sus enfoques de riesgo",
+    "Las facultades de las entidades que realizan actividad de fiscalización en campo",
+    "El contenido mínimo del acta que se levanta al término de cada diligencia de fiscalización de campo"
    ],
    "por": "El <q>Artículo 32.- Fiscalización posterior</q> obliga a la entidad ante la que se realizó un procedimiento de aprobación automática o evaluación previa a verificar de oficio, mediante muestreo, la autenticidad de las declaraciones, documentos, informaciones y traducciones <q>proporcionadas por el administrado</q>. La fiscalización de campo está en los arts. 228-A a 228-H.",
    "base": "Art. 32.1 del TUO de la Ley 27444 (DS 006-2026-JUS)",
@@ -101,9 +101,9 @@
    "q": "Tras la Ley 31724, el artículo 45.2 del TUO 2026 permite establecer pagos diferenciados por derecho de tramitación según el tipo de administrado:",
    "ok": "Solo si lo dispone expresamente una ley del Congreso, sin perjudicar al administrado",
    "mal": [
-    "Si lo aprueba el titular de la entidad mediante resolución motivada",
-    "Si el administrado es una MYPE, aun sin ley expresa que lo autorice",
-    "Nunca, porque todo pago diferenciado está prohibido sin excepción"
+    "Si lo aprueba el titular de la entidad mediante resolución motivada y publicada",
+    "Si el administrado es una MYPE, aun sin ley expresa del Congreso que lo autorice",
+    "Nunca, porque todo pago diferenciado está prohibido sin ninguna excepción posible"
    ],
    "por": "El art. 45.2 mantiene la prohibición de pagos diferenciados, <q>salvo que se disponga expresamente por ley del Congreso de la República, en estricto respeto del artículo 59 de la Constitución</q>, y agrega que <q>El establecimiento de pagos diferenciados no puede perjudicar al administrado</q>.",
    "base": "Art. 45.2 del TUO de la Ley 27444 (modificado por la Ley 31724)",
@@ -125,7 +125,7 @@
    "ok": "Las entidades los facilitan mientras implementan la mesa de partes digital, bajo supervisión de la SGTD de la PCM",
    "mal": [
     "Solo pueden usarse si el administrado lo solicita y paga el derecho de tramitación correspondiente",
-    "Su supervisión corresponde al Ministerio de Justicia y Derechos Humanos y a cada entidad",
+    "Su supervisión corresponde al Ministerio de Justicia y Derechos Humanos y al órgano de control institucional de cada entidad",
     "Quedan prohibidos una vez que la entidad implementa su mesa de partes presencial"
    ],
    "por": "El art. 123.2 dispone que las entidades, <q>en tanto implementan la mesa de partes digital</q>, facilitan el empleo de sistemas de transmisión de datos a distancia, y que <q>La Secretaría de Gobierno y Transformación Digital de la Presidencia del Consejo de Ministros</q> o la que haga sus veces supervisa su funcionamiento.",
@@ -145,11 +145,11 @@
    "id": "ds006-m2-07",
    "tema": "Plazo para informes",
    "q": "En un procedimiento, la autoridad solicita a otra unidad un informe técnico sobre los resultados de monitoreo de una unidad minera, y no existe plazo fijado por ley. Según el artículo 132 del TUO 2026, el informe debe emitirse:",
-   "ok": "Dentro de siete días de solicitado, prorrogables tres días si requiere traslado fuera de la sede",
+   "ok": "En siete días de solicitado, prorrogables tres días si exige traslado fuera de la sede",
    "mal": [
     "Dentro de tres días de solicitado, por tratarse de un acto de mero trámite",
     "Dentro de diez días de solicitado, prorrogables cinco días si requiere peritaje",
-    "Dentro de quince días de solicitado, sin posibilidad de prórroga"
+    "Dentro de quince días de solicitado, sin posibilidad alguna de prórroga por la autoridad"
    ],
    "por": "El art. 132.3 fija para la <q>emisión de dictámenes, peritajes, informes y similares</q> el plazo de siete días después de solicitados, <q>pudiendo ser prorrogado a tres días más si la diligencia requiere el traslado fuera de su sede o la asistencia de terceros</q>.",
    "base": "Art. 132.3 del TUO de la Ley 27444 (DS 006-2026-JUS)",
@@ -191,7 +191,7 @@
    "id": "ds006-m2-09",
    "tema": "Decaimiento del derecho",
    "q": "Vence un plazo improrrogable sin que la empresa minera haya realizado la actuación procesal que le correspondía. Según el artículo 140.2 del TUO 2026, la entidad:",
-   "ok": "Declara decaído el derecho al acto correspondiente, previo apercibimiento, y notifica la decisión",
+   "ok": "Declara decaído el derecho, previo apercibimiento, y notifica esa decisión",
    "mal": [
     "Concede de oficio un nuevo plazo igual al vencido para que la empresa actúe",
     "Archiva el procedimiento por abandono sin necesidad de apercibimiento previo",
@@ -260,7 +260,7 @@
    "id": "ds006-m2-12",
    "tema": "Registro audiovisual",
    "q": "Durante una supervisión, el supervisor quiere fotografiar instalaciones y grabar en video la diligencia. Según el artículo 228-B.2.4 del TUO 2026:",
-   "ok": "Puede hacerlo con conocimiento previo del administrado, para tener un registro completo y fidedigno",
+   "ok": "Puede hacerlo con conocimiento previo del administrado, sin necesitar su autorización",
    "mal": [
     "Solo puede hacerlo con autorización escrita del representante legal de la empresa",
     "Solo puede tomar fotografías; las grabaciones de video requieren orden judicial",
@@ -331,7 +331,7 @@
    "q": "Para sancionar a una empresa minera por continuación de infracciones, ¿qué exige el artículo 230.7 del TUO 2026?",
    "ok": "Que pasen al menos 30 días hábiles desde la última sanción y se haya requerido acreditar el cese",
    "mal": [
-    "Que pasen al menos 30 días calendario desde la última sanción, sin requerimiento previo",
+    "Que pasen al menos 30 días calendario desde la última sanción, sin requerimiento previo de cese",
     "Que pasen al menos 15 días hábiles desde la imputación de cargos de la primera infracción",
     "Que la última sanción haya sido confirmada en sede judicial con calidad de cosa juzgada"
    ],
@@ -428,9 +428,9 @@
    "q": "Según el artículo 236 del TUO 2026, ¿cuál es un límite de las medidas de carácter provisional en el PAS?",
    "ok": "No pueden causar perjuicio de difícil o imposible reparación ni violar derechos del interesado",
    "mal": [
-    "No pueden durar más de tres meses, aunque persista la necesidad cautelar",
-    "No pueden dictarse antes de que se emita el informe final de instrucción",
-    "No pueden modificarse ni sustituirse una vez que han sido dictadas"
+    "No pueden durar más de tres meses, aunque persista la necesidad cautelar del caso",
+    "No pueden dictarse antes de que se emita y notifique el informe final de instrucción del PAS",
+    "No pueden modificarse ni sustituirse una vez que han sido dictadas por la autoridad"
    ],
    "por": "El art. 236.3 dispone: <q>No se puede dictar medidas de carácter provisional que puedan causar perjuicio de difícil o imposible reparación a los interesados o que impliquen violación de sus derechos</q>.",
    "base": "Art. 236.3 del TUO de la Ley 27444 (DS 006-2026-JUS)",
